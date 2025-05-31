@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans TC";
+    line-height: 1.5;
+    max-width: 1920px;
+}
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.header a{
+    font-size: 28px;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.intro{
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: #FBFBFB;
+}
+.intro img{
+    width: 50%;
+}
+.hello{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 24px;
+}
+.hello time{
+    margin: 2px 0px;
+}
+.hello h2 {
+    color: blue; 
+    font-size: 24px;
+    margin: 4px 0px;
+}
+.hello h3 {
+    font-weight: bold;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 4px 0px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 208px;
+    background: #FBFBFB;
+}
+.mail a{
+    display: inline-block;
+    width:1036px ;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    display: flex;
+    width: 236px;
+    height: 44px;
+    justify-content: center;
+    margin: 0 12px;
+}
+.btn a{
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+}
+
+.rights{
+    text-align: center;
+    margin-top: 24px;
+}
