@@ -351,6 +351,11 @@ body{
     width: 40px;
     text-decoration: none;
 }
+.pagination p{
+    color:#4B4B4B;
+    width: 40px;
+    text-decoration: none;
+}
 .pagination a:hover {
     color:#0027D5;
 }
